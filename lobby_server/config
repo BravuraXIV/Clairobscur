@@ -3,7 +3,8 @@
 
 [Endpoint]
 ip=0.0.0.0
-port=Default
+port=54994
+backlog=100
 
 [Database]
 host=127.0.0.1

@@ -8,12 +8,12 @@ namespace bravura
 
 struct get_characters_packet
 {
-    static u8 opcode = 0x03;
+    static const u8 opcode = 0x03;
 };
 
 struct select_character_packet
 {
-    static u8 opcode = 0x04;
+    static const u8 opcode = 0x04;
 
     u64 sequence;
     u32 character_id;
@@ -23,7 +23,7 @@ struct select_character_packet
 
 struct modify_character_packet
 {
-    static u8 opcode = 0x0B;
+    static const u8 opcode = 0x0B;
 
     u64 sequence;
     u32 character_id;
